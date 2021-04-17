@@ -1,65 +1,53 @@
 <template>
   <div>
-    <div v-if="loaded">
-      <section
-        class="text-3xl flex justify-center content-center flex-col mx-auto text-center"
-      >
-        <Wait v-if="!expired" />
-      </section>
-      <section class="flex text-6xl justify-center content-center">
-        <div class="days mr-2 relative">
-          {{ displayDays }}
-          <div class="label text-sm absolute bottom-0">days</div>
-        </div>
-        <span class="leading-snug">:</span>
+    <div
+      class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4"
+    >
+      <div class="flex-shrink-0">
+        <img class="h-12 w-12" src="@/assets/hbd.png" alt="ChitChat Logo" />
+      </div>
+      <div>
+        <div class="text-xl font-medium text-black">WE LOVE ❤ U</div>
+        <p class="text-gray-500">AUN QUEDA UNA SORPRESA</p>
 
-        <div class="hours mx-2 relative">
-          {{ displayHours }}
-          <div class="label text-sm absolute bottom-0">hours</div>
-        </div>
-        <span class="leading-snug">:</span>
+        <!-- AUI VA EL TIMER -->
+        <div v-if="loaded">
+          <section class="flex text-6xl justify-center content-center">
+            <div class="days mr-2 relative">
+              {{ displayDays }}
+              <div class="label text-sm absolute bottom-0">days</div>
+            </div>
+            <span class="leading-snug">:</span>
 
-        <div class="minutes mx-2 relative">
-          {{ displayMinutes }}
-          <div class="label text-sm absolute bottom-0">minutes</div>
-        </div>
-        <span class="leading-snug">:</span>
+            <div class="hours mx-2 relative">
+              {{ displayHours }}
+              <div class="label text-sm absolute bottom-0">hours</div>
+            </div>
+            <span class="leading-snug">:</span>
 
-        <div class="seconds ml-2 relative">
-          {{ displaySeconds }}
-          <div class="label text-sm absolute bottom-0">seconds</div>
-        </div>
-      </section>
-    </div>
+            <div class="minutes mx-2 relative">
+              {{ displayMinutes }}
+              <div class="label text-sm absolute bottom-0">minutes</div>
+            </div>
+            <span class="leading-snug">:</span>
 
-    <div v-if="!loaded">
-      <Message v-if="expired" />
-      <Pop
-        v-if="expired"
-        :year="2021"
-        :month="3"
-        :day="18"
-        :hour="24"
-        :minute="0"
-        :second="0"
-        :millisecond="0"
-      />
+            <div class="seconds ml-2 relative">
+              {{ displaySeconds }}
+              <div class="label text-sm absolute bottom-0">seconds</div>
+            </div>
+          </section>
+        </div>
+        <div v-if="!loaded">
+          <a href="/happy"> PARA VER DALE AQUI </a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import Wait from "@/components/Wait.vue";
-import Message from "@/components/Message.vue";
-import Pop from "@/components/Pop.vue";
-
 export default {
-  components: {
-    Wait,
-    Message,
-    Pop,
-  },
-  name: "Counter",
+  name: "Pop",
   props: ["year", "month", "day", "minute", "hour", "second", "millisecond"],
   data: () => ({
     displayDays: 0,

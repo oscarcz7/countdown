@@ -4,7 +4,7 @@
       <section
         class="text-3xl flex justify-center content-center flex-col mx-auto text-center"
       >
-        <Wait v-if="!expired" />
+        <!-- <Wait v-if="!expired" /> -->
       </section>
       <section class="flex text-6xl justify-center content-center">
         <div class="days mr-2 relative">
@@ -32,34 +32,16 @@
       </section>
     </div>
 
-    <div v-if="!loaded">
+    <!-- <div v-if="!loaded">
       <Message v-if="expired" />
-      <Pop
-        v-if="expired"
-        :year="2021"
-        :month="3"
-        :day="18"
-        :hour="24"
-        :minute="0"
-        :second="0"
-        :millisecond="0"
-      />
-    </div>
+      <Pop v-if="expired" />
+    </div> -->
   </div>
 </template>
 
 <script>
-import Wait from "@/components/Wait.vue";
-import Message from "@/components/Message.vue";
-import Pop from "@/components/Pop.vue";
-
 export default {
-  components: {
-    Wait,
-    Message,
-    Pop,
-  },
-  name: "Counter",
+  name: "BirhtdayCounter",
   props: ["year", "month", "day", "minute", "hour", "second", "millisecond"],
   data: () => ({
     displayDays: 0,
