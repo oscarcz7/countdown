@@ -12,28 +12,28 @@
 
         <!-- AUI VA EL TIMER -->
         <div v-if="loaded">
-          <section class="flex text-6xl justify-center content-center">
+          <section class="flex text-4xl justify-center content-center">
             <div class="days mr-2 relative">
               {{ displayDays }}
-              <div class="label text-sm absolute bottom-0">days</div>
+              <div class="label text-sm absolute bottom-30">days</div>
             </div>
-            <span class="leading-snug">:</span>
+            <span>:</span>
 
             <div class="hours mx-2 relative">
               {{ displayHours }}
-              <div class="label text-sm absolute bottom-0">hours</div>
+              <div class="label text-sm absolute bottom-30">hours</div>
             </div>
-            <span class="leading-snug">:</span>
+            <span>:</span>
 
             <div class="minutes mx-2 relative">
               {{ displayMinutes }}
-              <div class="label text-sm absolute bottom-0">minutes</div>
+              <div class="label text-sm absolute bottom-30">minutes</div>
             </div>
-            <span class="leading-snug">:</span>
+            <span>:</span>
 
             <div class="seconds ml-2 relative">
               {{ displaySeconds }}
-              <div class="label text-sm absolute bottom-0">seconds</div>
+              <div class="label text-sm absolute bottom-30">seconds</div>
             </div>
           </section>
         </div>

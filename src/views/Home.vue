@@ -3,7 +3,7 @@
     <Counter
       :year="2021"
       :month="3"
-      :day="17"
+      :day="16"
       :hour="16"
       :minute="30"
       :second="0"
