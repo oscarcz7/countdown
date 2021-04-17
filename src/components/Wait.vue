@@ -3,9 +3,8 @@
     <!-- <div class="hit-the-floor">COUNTDOWN!</div> -->
 
     <section>
-      <div class="area mb-52">LISTA</div>
-      <div class="area mt-20 mb-52">PARA LA</div>
-      <div class="area mt-20">SORPRESA!?</div>
+      <div class="area mb-52"> ESTAS LISTA</div>
+      
     </section>
   </div>
 </template>

@@ -3,9 +3,9 @@
     <Counter
       :year="2021"
       :month="3"
-      :day="16"
-      :hour="19"
-      :minute="41"
+      :day="17"
+      :hour="16"
+      :minute="30"
       :second="0"
       :millisecond="0"
     />
