@@ -34,6 +34,7 @@
 
     <div v-if="!loaded">
       <Message v-if="expired" />
+      
       <Pop
         v-if="expired"
         :year="2021"
@@ -44,6 +45,7 @@
         :second="0"
         :millisecond="0"
       />
+      
     </div>
   </div>
 </template>

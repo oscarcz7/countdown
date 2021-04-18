@@ -39,6 +39,8 @@
         </div>
         <div v-if="!loaded">
           <a href="/happy"> PARA VER DALE AQUI </a>
+          <br>
+          <a href="/song" >CANTAMOS ALGO?</a>
         </div>
       </div>
     </div>

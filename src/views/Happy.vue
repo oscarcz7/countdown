@@ -1,26 +1,29 @@
 <template>
-  <div class="happy">
-    <svg viewBox="0 0 800 600">
-      <symbol id="s-text">
-        <text text-anchor="middle" x="50%" y="25%" class="text--line">
-          Feliz
-        </text>
-        <text text-anchor="middle" x="50%" y="45%" class="text--line">
-          Cumpleaños
-        </text>
-        <text text-anchor="middle" x="50%" y="68%" class="text--line">
-          HERMOSA
-        </text>
-      </symbol>
+  <div>
+    <div class="happy">
+      <svg viewBox="0 0 800 600">
+        <symbol id="s-text">
+          <text text-anchor="middle" x="50%" y="25%" class="text--line">
+            Feliz
+          </text>
+          <text text-anchor="middle" x="50%" y="45%" class="text--line">
+            Cumpleaños
+          </text>
+          <text text-anchor="middle" x="50%" y="68%" class="text--line">
+            HERMOSA
+          </text>
+        </symbol>
 
-      <g class="g-ants">
-        <use xlink:href="#s-text" class="text-copy"></use>
-        <use xlink:href="#s-text" class="text-copy"></use>
-        <use xlink:href="#s-text" class="text-copy"></use>
-        <use xlink:href="#s-text" class="text-copy"></use>
-        <use xlink:href="#s-text" class="text-copy"></use>
-      </g>
-    </svg>
+        <g class="g-ants">
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+        </g>
+      </svg>
+    </div>
+    
   </div>
 </template>
 
