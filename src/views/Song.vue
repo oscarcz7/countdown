@@ -1,8 +1,8 @@
 <template>
-  <div>
-      <iframe
-        width="560"
-        height="315"
+  <div class="mt-50">
+      <iframe class="mt-10 ml-10"
+        width="860"
+        height="615"
         src="https://www.youtube.com/embed/n-kQsAfZaws?start=1"
         title="YouTube video player"
         frameborder="0"
