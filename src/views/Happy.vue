@@ -4,13 +4,13 @@
       <svg viewBox="0 0 800 600">
         <symbol id="s-text">
           <text text-anchor="middle" x="50%" y="25%" class="text--line">
-            Feliz
+            SONRIE
           </text>
           <text text-anchor="middle" x="50%" y="45%" class="text--line">
-            Cumpleaños
+            YO TE 
           </text>
           <text text-anchor="middle" x="50%" y="68%" class="text--line">
-            HERMOSA
+            QUIERO
           </text>
         </symbol>
 
