@@ -9,7 +9,7 @@ In order to activate or deactivate the countdown, access to Home.vue view and ch
 This project is deployed in Netlify in the next URL: 
 
 ```
-
+https://infallible-poitras-6d6326.netlify.app
 ```
 
 ## Project setup
