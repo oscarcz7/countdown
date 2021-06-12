@@ -1,4 +1,16 @@
-# hbd-countdown
+# Counter Creation
+
+Countdown project made with Vue js and Tailwindcss
+
+In order to activate or deactivate the countdown, access to Home.vue view and change the Pop component values.
+
+# Deployed
+
+This project is deployed in Netlify in the next URL: 
+
+```
+
+```
 
 ## Project setup
 ```
