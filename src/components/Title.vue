@@ -1,7 +1,7 @@
 <template>
   <svg viewBox="0 0 960 300">
     <symbol id="s-text">
-      <text text-anchor="middle" x="50%" y="80%">SORPRESA</text>
+      <text text-anchor="middle" x="50%" y="80%">counter</text>
     </symbol>
 
     <g class="g-ants">
@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: "Message",
+  name: "Title",
 };
 </script>
 

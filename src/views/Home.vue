@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Counter
-      :year="2021"
+    <Pop
+      :year="2022"
       :month="3"
       :day="17"
       :hour="16"
@@ -13,10 +13,10 @@
 </template>
 
 <script>
-import Counter from "@/components/Counter.vue";
+import Pop from "@/components/Pop.vue";
 export default {
   components: {
-    Counter,
+    Pop,
   },
 };
 </script>
