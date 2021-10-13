@@ -1,9 +1,10 @@
 <template>
   <svg viewBox="0 0 960 300">
     <symbol id="s-text">
-      <text text-anchor="middle" x="50%" y="80%">counter</text>
+      <text text-anchor="middle" x="50%" y="80%">{{title}}</text>
+      
     </symbol>
-
+    
     <g class="g-ants">
       <use xlink:href="#s-text" class="text-copy"></use>
       <use xlink:href="#s-text" class="text-copy"></use>
@@ -17,6 +18,7 @@
 <script>
 export default {
   name: "Title",
+  props: ["title"],
 };
 </script>
 

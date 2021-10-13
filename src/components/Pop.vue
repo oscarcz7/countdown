@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Title />
+    <Title :title = "CUENTA"/>
     <div
       class="
         p-6
@@ -64,6 +64,7 @@
         <div v-if="!loaded"></div>
       </div>
     </div>
+    <Title :title = "REGRESIVA"/>
   </div>
 </template>
 

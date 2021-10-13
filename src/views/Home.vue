@@ -2,13 +2,18 @@
   <div>
     <Pop
       :year="2021"
-      :month="10"
+      :month="9"
       :day="20"
-      :hour="00"
-      :minute="00"
+      :hour="7"
+      :minute="0"
       :second="0"
       :millisecond="0"
     />
+    <div class="text-center m-5 text-xl ">
+      <p class="text-white">ALGO ESPECIAL ESTA POR PASAR</p>
+      <P class="text-white">ESPERALO</P>
+    </div>
+    
   </div>
 </template>
 
