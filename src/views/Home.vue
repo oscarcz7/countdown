@@ -4,7 +4,7 @@
       :year="2021"
       :month="10"
       :day="20"
-      :hour="07"
+      :hour="7"
       :minute="00"
       :second="0"
       :millisecond="0"
