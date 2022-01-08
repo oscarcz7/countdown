@@ -1,7 +1,7 @@
 <template>
   <div>
     <Pop
-      :year="2021"
+      :year="2050"
       :month="9"
       :day="20"
       :hour="7"
@@ -10,8 +10,8 @@
       :millisecond="0"
     />
     <div class="text-center m-5 text-xl ">
-      <p class="text-white">ALGO ESPECIAL ESTA POR PASAR</p>
-      <P class="text-white">ESPERALO</P>
+      <p class="text-white">THIS IS A COUNTDOWN</p>
+      <P class="text-white">MADE WITH VUE AND TAILWIND CSS</P>
     </div>
     
   </div>
